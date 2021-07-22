@@ -28,7 +28,7 @@ printf("Hello World") --> std::cout << "Hello World";
 
 2.54cm = 1 inch
 
-```c
+```c*/
 #include <stdio.h>
 void main(void) 
 {
@@ -37,7 +37,7 @@ void main(void)
     scanf("%f",&cm);
     inches = cm / 2.54;
     printf("Length in inches is %f \n", inches);
-}   
+}
 ```
 
 ## Exercise 2 - Selection
@@ -88,7 +88,6 @@ void main(void)
    netSalary = salary + otHrs* otRate;
    printf("Net Salary is %f ", netSalary);
 }
-```
 
 ## Exercise 3 - Repeatition
 
@@ -149,4 +148,3 @@ int main() {
   std::cout << std::endl;
 }
 ```
-
